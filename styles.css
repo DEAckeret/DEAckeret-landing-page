@@ -1,0 +1,38 @@
+
+
+h1{
+    white-space: nowrap;
+    background-color: rgba(240, 248, 255, 0.13);
+    padding-inline: 1rem;
+    border-radius: 0.5rem;
+}
+
+.link-container {
+    display: flex;
+    justify-content: center;
+}
+
+.link-container a {
+    background-color: rgba(240, 248, 255, 0.13);
+    text-decoration: none;
+    padding-inline: 0.5rem;
+    border: none;
+    color: aliceblue;
+}
+
+.link-container a:hover {
+    background-color: rgba(171, 215, 253, 0.85);
+    border-radius: 0.5rem;
+}
+
+.link-container a:active {
+    background-color: rgba(125, 193, 253, 0.85);
+    border-radius: 0.5rem;
+}
+
+.link-container a:focus {
+    background-color: rgba(125, 193, 253, 0.85);
+    border-radius: 0.5rem;
+    
+}
+
